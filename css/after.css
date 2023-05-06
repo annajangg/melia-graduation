@@ -1,0 +1,86 @@
+body{
+    display: flex;
+    flex-direction: column;
+}
+
+.info{
+    margin-top: 30px; 
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+}
+
+h2{
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    font-style: italic;
+}
+
+.para-block{
+    margin-left: 1vh;
+    margin-right: 1vh;
+}
+
+.grad{
+    margin-top: 0;
+    margin-bottom: 3rem;
+}
+
+/* button styling */
+.link{
+    display: flex;
+    width: 15vh;
+    height: 5vh;
+    text-decoration: none;
+    font-size: 15px;
+    margin: 10px;
+    background-color: #d1dba7ff;
+    justify-content: center;
+    border: white solid;
+}
+.link a{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    font-family: 'Playfair Display', serif;
+    width: 15vh;
+    height: 5vh;
+}
+.link:hover, .link:active{
+    border-style: solid;
+    border-color: #2b3425;
+    background-color: #cfddc2;
+    color: #2b3425;
+}
+.link a:hover, .link a:active{
+    color: #2b3425;
+}
+.button-box{
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.text{
+    width: 40vh;
+}
+
+
+@media screen and (min-width: 768px){
+
+    .text{
+        width: 100vh;
+    }
+
+    .grad{
+        margin-top: 5em;
+        margin-bottom: 8em;
+    }
+    
+}
